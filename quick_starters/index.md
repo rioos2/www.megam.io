@@ -1,0 +1,48 @@
+---
+# Page settings
+layout: default
+keywords:
+comments: false
+
+# Hero section
+title: Quick Starters
+description: Page description
+
+# Micro navigation
+micro_nav: true
+
+# Page navigation
+page_nav:
+    prev:
+        content: Audits, Logs (Telemetry)
+        url: '../../telemetry'
+    next:
+        content: API Reference
+        url: '../../api_reference'
+---
+
+## Quick Starters
+
+Rio/OS is the worlds only private cloud operating system.
+
+### Howdy
+
+how `are` you
+
+<div class="example">
+    <a href="#" target="blank">Preview</a>
+</div>
+```rust
+public fn 
+```
+
+
+> Pardon my fresnch
+
+<div class="callout callout--info">
+    <p><strong>Lorem ipsum dolor sit amet!</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+
+
+
