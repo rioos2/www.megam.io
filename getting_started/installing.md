@@ -23,7 +23,10 @@ page_nav:
 
 ## Installing
 
-Rio/OS offering two type of installation first one iso and the second one is docker packages.
+Rio/OS offering two type of installation 
+
+- USB ISO 
+- Existing Rio OS using Docker containers
 
 
 ### ISO Installation

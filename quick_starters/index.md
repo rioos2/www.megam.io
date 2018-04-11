@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Quick Starters
-description: Page description
+description: As an user how do i deploy ?
 
 # Micro navigation
 micro_nav: true
@@ -25,24 +25,69 @@ page_nav:
 
 Rio/OS is the worlds only private cloud operating system.
 
-### Howdy
+### Deploy a debian digitalcloud
 
-how `are` you
+Install the [Pre requisites](pre_requisites)
 
-<div class="example">
-    <a href="#" target="blank">Preview</a>
-</div>
-```rust
-public fn 
-```
-
-
-> Pardon my fresnch
+> Go To Rio OS
 
 <div class="callout callout--info">
-    <p><strong>Lorem ipsum dolor sit amet!</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <p><strong>Rio OS UI</strong> Rio OS has a private url to access the same. Contact admin for  Rio OS access details.
 </div>
 
 
 
+### Deploy a debian digitalcloud  using CLI 
+
+Install the [Pre requisites](pre_requisites)
+
+> Go To Rio OS
+
+<div class="callout callout--info">
+    <p><strong>Rio OS CLI</strong> Download and install Rio OS CLI as seen in [cli](cli).
+</div>
+
+### Deploy a container - ?
+
+Install the [Pre requisites](pre_requisites)
+
+> Go To Rio OS
+
+<div class="callout callout--info">
+    <p><strong>Rio OS UI</strong> Rio OS has a private url to access the same. Contact admin for  Rio OS access details.
+</div>
+
+
+
+### Deploy a container - ? using CLI 
+
+Install the [Pre requisites](pre_requisites)
+
+> Go To Rio OS
+
+<div class="callout callout--info">
+    <p><strong>Rio OS CLI</strong> Download and install Rio OS CLI as seen in [cli](cli).
+</div>
+
+
+### Deploy a blockchain app
+
+Install the [Pre requisites](pre_requisites)
+
+> Go To Rio OS
+
+<div class="callout callout--info">
+    <p><strong>Rio OS UI</strong> Rio OS has a private url to access the same. Contact admin for  Rio OS access details.
+</div>
+
+
+
+### Deploy a blockchain app  using CLI 
+
+Install the [Pre requisites](pre_requisites)
+
+> Go To Rio OS
+
+<div class="callout callout--info">
+    <p><strong>Rio OS CLI</strong> Download and install Rio OS CLI as seen in [cli](cli).
+</div>

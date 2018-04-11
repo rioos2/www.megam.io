@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Security
-description: Page description
+description: This section provides information on Rio OS PKI infrastructure, and different ways of  storing secret
 
 # Micro navigation
 micro_nav: true
@@ -20,13 +20,13 @@ page_nav:
     next:
         content: Scaling
         url: '../../scaling/index.html'
----
+
 
 ## Security
 
 Rio/OS is the worlds only private cloud operating system.
 
-### Howdy
+### PKI Infrastructure
 
 how `are` you
 
@@ -45,5 +45,9 @@ public fn
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 </div>
 
+### Identity
+
+- 
 
 
+### Secrets

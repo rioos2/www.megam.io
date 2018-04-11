@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: API Reference
-description: Page description
+description: Swagger Hub Rio OS v2 Open API specification and usage
 
 # Micro navigation
 micro_nav: true
@@ -27,16 +27,13 @@ Rio/OS is the worlds only private cloud operating system.
 
 ### v2
 
-how `are` you
 
-<div class="example">
-    <a href="#" target="blank">Preview</a>
+Refer [v2 OpenAPI specification](https://app.swaggerhub.com/apis/riocorp/rioos/2.0)
+
+<div class="callout callout--info">
+    <p><strong>Caution</strong> API is subject to change until 2.0 is released.</p>    
 </div>
-```rust
-public fn 
-```
 
-<h2>0001</h2>
 
 {% for route in site.data.swagger.paths %}
 <h1>0000</h1>h1>
