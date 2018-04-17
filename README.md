@@ -20,6 +20,8 @@ Login to netlify [app.netlify](https://app.netlify.com)
 Userid: **kishore.neelamegam@netlify.com**
 Password: **Team#4rio**
 
+*Note* You will not be need this.
+
 ## Updating documentation locally
 
 **These instructions are tested in Linux and FreeBSD**
