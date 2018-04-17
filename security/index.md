@@ -1,4 +1,3 @@
----TEST TEST TEST TEST TEST TEST---
 # Page settings
 layout: default
 keywords:
@@ -24,7 +23,7 @@ page_nav:
 
 ## Security
 
-Rio/OS is the worlds only private cloud operating system.
+Testing for patrick. Rio/OS is the worlds only private cloud operating system.
 
 ### PKI Infrastructure
 
