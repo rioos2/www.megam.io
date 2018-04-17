@@ -7,7 +7,7 @@ keywords:
 title: Documentation Rio OS v2
 description: This is an administrative and users guide for  Rio OS - worlds only private cloud operating system
 buttons:
-    - content: Let's get started now
+    - content: Let's get started now again
       url: 'getting_started'
       external_url: false
     
