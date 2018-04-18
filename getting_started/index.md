@@ -36,12 +36,15 @@ Ri OS focuses on security from the ground up which has ability to launch digital
 ![Rio/OS Layered Architecture](/doks-theme/assets/images/RIO_OS_LayeredArchitecture.png)
 
 
-<>
-
  *Rio OS* is `commercially licensed`. 
 
- - Trial: Automatically starts when Rio OS is run.
- - Standard: Contact [rio.digital](http://rio.digital).
+ | License Type | Activation | Elapses |
+ | Trial |  Automatically starts when Rio OS is run | 14 days |
+ | Standard  | Contact [rio.digital](http://rio.digital) |  perpetual |
+
+
+<>
+
 
 ## Concepts 
 

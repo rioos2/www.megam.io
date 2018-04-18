@@ -105,12 +105,20 @@ Upon successful login, `rioos` updates $HOME/rioconfig/cli.toml with
 {% asciinema_play 174766 %}
 
 
-#### Deploy
+#### Deploy Digitalcloud
 
 <div class="example">
     TEST
 </div>
-{% asciinema_play 174766 %}
+{% asciinema_play 175777 %}
+
+
+#### Deploy a container: Jenkins
+
+<div class="example">
+    TEST
+</div>
+{% asciinema_play 1757811 %}
 
 
 #### Deploy and scale
