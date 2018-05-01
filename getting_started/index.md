@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Getting Started
-description: In this section you'll find basic information about Rio/OS and its features. If you're first time user then you should read Getting Started section first.
+description: In this section you'll find basic information about Rio/OS and its features. If you're first time user then you should read the Getting Started section first.
 
 
 # Micro navigation
@@ -21,33 +21,35 @@ page_nav:
 
 ## Introduction
 
-In this section you'll find basic information about [Rio/OS](http://rio.digital) and how to install it and use it properly. If you're first time user then you must read Getting Started section first.
+In this section you'll find basic information about [Rio/OS](http://rio.digital) and how to install and use it properly. If you're first time user then you must read the Getting Started section first.
 
 
 ### Rio/OS
 
-Rio OS is the worlds first private cloud operating system. This version 2.0 of the os is code named `Aventura`.  
+Rio OS is the world's first private cloud operating system. Version 2.0 of the OS is code- named `Aventura`.  
 
-For more  information, visit [rio.digital](http://rio.digital). 
+For more  information, visit [Rio.digital](http://rio.digital). 
 
-Ri OS focuses on security from the ground up which has ability to launch digital cloud, containers and blockchain apps. With Rio OS you don't need to think about servers at all.
+Rio OS focuses on security from the ground up. Rio OS has ability to launch virtual private servers (VPS), containers and blockchain-backed apps. With Rio OS you don't need to think about servers at all.
 
 
 ![Rio/OS Layered Architecture](/doks-theme/assets/images/RIO_OS_LayeredArchitecture.png)
 
 
-<>
-
  *Rio OS* is `commercially licensed`. 
 
- - Trial: Automatically starts when Rio OS is run.
- - Standard: Contact [rio.digital](http://rio.digital).
+ | License Type | Activation | Elapses |
+ | Trial Version |  Automatically starts when Rio OS is run | 14 days |
+ | Standard Version | Contact [Rio.digital](http://rio.digital) |  perpetual |
+
+
+
 
 ## Concepts 
 
 The following concepts are used in Rio OS.
 
-A high level overview with Rio OS managing  datacenters is depicted below.
+A high-level overview image depicting Rio OS managing  datacenters is listed below.
 
 ![Rio/OS (With nodes connected)](/doks-theme/assets/images/RIO_OS_Highlevel.png)
 
@@ -58,11 +60,9 @@ A Datacenter is a grouped cluster of nodes. A node is a bare metal machine.
 
 #### Locations
 
-A location is a virtual grouping of clustered nodes with storage and network.  
+A location is a virtual grouping of clustered nodes with storage and networking.  
 
-Rio OS admins have ability to group nodes as clusters, manage nodes, setup storage and group them to named identifiers.
- (eg: NEWYORK01, MIAMI01, PARIS02). 
-
+Rio OS admins have the ability to group nodes as clusters, manage nodes, setup storage and group them to named identifiers. (ex: NEWYORK01, MIAMI01, PARIS02). 
 
 #### Clusters
  
@@ -76,31 +76,32 @@ A node is a physical machine. Rio OS onboards nodes automatically.
  
 #### Storages
 
-Storage are created automatically using the supported plugins for 
+Storage is a collection of disks in nodes consumed by virtual private servers, containers and blockchain apps. Rio OS supports plugins to utilize the below storage types.
 
 - Local
 - Network File System (NFS)
 - [Ceph](https://ceph.com)
+- [OpenIO](https://openio.com)
 
 #### Network
 
-Rio OS sets up virtual network automatically for digital cloud, containers and blockchain apps.
+Different subnets consumed by virtual private servers (VPS), containers and blockchain apps. Virtual network on the control plane in nodes Rio OS are configured by administrators from the `Infrastructure` option in `Command Center`.
 
 ### Scaling
 
-< defintion and what Rio supports from google doc.> Scale changes by a developer automatically gets refreshed.
+Scale changes by a developer automatically gets refreshed to add more containers or increase each containers’ resources.
 
 #### Horizontal
 
-< defintion and what Rio supports from google doc.> Scale apps behind a load balancer
+Scale apps behind a load balancer to add more containers.
 
 #### Vertical
 
-< defintion and what Rio supports from google doc.>
+Scale apps behind cloud orchestration software in order to add more resources to each container.
 
 ### High Availability
 
-Self-Healing Infrastructure automatically detects node and workload failures, automatically recovers workloads in this situation without the need to configure anything.
+Self-Healing Infrastructure automatically detects node and workload failures, and automatically recovers workloads. In this situation, without the need to configure anything.
 
 
 #### Zero Downtime Deployment
@@ -109,39 +110,27 @@ Allows users to deploy and update applications anytime with self-service deploym
 
 #### Non-Disruptive Upgrades 
 
-Allows users to upgrade RIO/OS without any Disruptions to their service or migrating running containers and/or data workloads.
+Allows users to upgrade RIO/OS without any Disruptions to their service or need to migrate running containers and/or data workloads.
 
 ### CI/CD
 
-< defintion and what Rio supports from google doc.>
-
 Code changes by a developer automatically gets refreshed.
-
-Scale apps behind a load balancer
 
 #### Private DNS
 
-< defintion and what Rio supports from google doc.>
-
-DNS managed using powerdns or atomia dns or coredns
+DNS managed using powerdns.
 
 ### Digital Cloud
 
-< defintion and what Rio supports from google doc.>
-
-Allows users to spin operating systems of your choice (linux - any flavors, freebsd, windows, coreos) and guard them with tight security with access controlled via a mobile app.
+Allows users to spin operating systems of your choice (linux - any flavors, freebsd, windows, coreos) and guard them with tight security with access controlled via a mobile app. The digital cloud is wrapped around with blockchain audits.
 
 ### Containers
-
-< defintion and what Rio supports from google doc.>
 
 Allows users to use container orchestration using docker from public or private docker registry. This includes automatic workload recovery, security, networking, service discovery, storage and more.
 
 ### Blockchain
 
-< defintion and what Rio supports from google doc.>
-
-Developers to deploy their own applications stored in private Git, svn, (*public Github*) with any of these platforms Java, Ruby, Nodejs, Scala, Python, PHP, Golang, Rust-lang, C/C++.
+Provides Developers with tools to deploy their own applications stored in private Git, svn, (*public Github*) with any of these platforms Java, Ruby, Nodejs, Scala, Python, PHP, Golang, Rust-lang, C/C++ whilst utilizing blockchain technologies.
 
 ### Powerful CLI
 
@@ -152,18 +141,20 @@ Allows users to effortlessly manage their apps, services, and infrastructure wit
 
 #### Identity & Access Management
 
-Fine-grained access control & integration with multiple identity providers (LDAP, Active Directory, SAML 2.0 and OpenID Connect).
+Fine-grained access control & integration with built-in roles and permisssion. Provide additional spacing using Teams and Organization with more granularity in isolation.
+
+Support for multiple identity providers SAML 2.0 and OpenID Connect.
+
+Import from (LDAP, Active Directory) in Rio OS identity.
 
 #### Secrets
-
-< defintion and what Rio supports from google doc.>
 
 Allows for the secure distribution of sensitive information to running application while maintaining access control and encryption during communication and at rest.
 
 
 ### Public Rio.Marketplace
 
-Rio marketplace is available publicly in [rio.marketplace](https://marketplace.rioos.xyz) with apps to use. The categories and the apps available are shown below.
+Rio marketplace is available publicly in [Rio.marketplace](https://marketplace.rioos.xyz) with apps to use. The categories and the curated apps available are shown below. 
 
 #### Blockchain
 

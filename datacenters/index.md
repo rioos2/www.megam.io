@@ -36,7 +36,7 @@ You can group as many clusters as you can and identify them with different locat
 > Deployment is based on location
 
 
-A location has multiple nodes. Network is attached to the node. Make sure the storage and network are setup before a location is created.
+A location has multiple nodes. Network is attached to each node. *Make sure the storage and network are setup before a location is created*.
 
 To create a location, Refer [Asciicast in cli](/cli)
 

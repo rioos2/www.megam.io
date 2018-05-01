@@ -5,7 +5,7 @@ keywords:
 comments: false
 
 # Hero section
-title: Security TESTING!
+title: Security
 description: This section provides information on Rio OS PKI infrastructure, and different ways of  storing secret
 
 # Micro navigation
@@ -24,7 +24,7 @@ page_nav:
 
 ## Security
 
-Testing for patrick. Rio/OS is the worlds only private cloud operating system.
+Rio/OS is the worlds only private cloud operating system.
 
 ### PKI Infrastructure
 

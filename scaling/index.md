@@ -23,46 +23,21 @@ page_nav:
 
 ## Scaling
 
-Rio/OS is the worlds only private cloud operating system.
+Scaling is the ability to expand or contrast nodes into a group or cluster and/or increase
+system resources per node either via CPU cores and/or memory capacity on the fly, by a
+schedule or automate via analytics and/or machine learning.
 
 ### Horizontal Scaling
 
-how `are` you
-
-<div class="example">
-    <a href="#" target="blank">Preview</a>
-</div>
-```rust
-public fn 
-```
-
-
-> Pardon my fresnch
-
-<div class="callout callout--info">
-    <p><strong>Lorem ipsum dolor sit amet!</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-</div>
+Has the adaptability to “cloud burst” (ie - automate expansion and contrasting of nodes in a
+cluster during off/peak hours in order to maximize system performance whilst also
+minimalizing overall costs), as well as integrate into machine learning and and analytics to
+add or remove nodes.
 
 
 ### Vertical Scaling
 
-how `are` you
-
-<div class="example">
-    <a href="#" target="blank">Preview</a>
-</div>
-```rust
-public fn 
-```
-
-
-> Pardon my fresnch
-
-<div class="callout callout--info">
-    <p><strong>Lorem ipsum dolor sit amet!</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-</div>
-
-
+Increase or decrease system resources to each node on the fly in order to meet minimum
+system requirements. Vertical scaling is useful for application lifecycles, updates, upgrades
+as well as many other use cases.
 

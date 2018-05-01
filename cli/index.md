@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: CLI
-description: This section provides information to use the rioos cli
+description: This section provides information to use the Rio OS cli
 
 # Micro navigation
 micro_nav: true
@@ -26,19 +26,19 @@ page_nav:
 Command line interface cli to manage Rio/OS.
 
 <div class="callout callout--warning">
-    <p><strong>Supported platforms</strong> Linux 64 bit.</p>
+    <p><strong>Supported platforms </strong> Linux.</p>
 </div>
 
 ### Installation
 
-Go to [rioos cli releases](https://github.com/rioadvancement/rioos/releases)
+Go to [Rio OS CLI releases](https://github.com/rioadvancement/rioos/releases){:target="_blank"}
 
 Download  the latest. 
 
 ```
 mkdir $HOME/bin
 
-wget https://github.com/rioadvancement/rioos/releases/download/2.0.0-rc1/rioos_20180409063706_Linux_amd64.tar.gz
+wget https://github.com/rioadvancement/rioos/releases/download/2.0.0-rc3/rioos_20180427132544_Linux_amd64.tar.gz
 
 tar -xf rioos_20180409063706_Linux_amd64.tar.gz -C $HOME/bin
 
@@ -46,7 +46,7 @@ rm rioos_20180406103819_Linux_amd64.tar.gz
 
 ```
 
-#### cli.toml
+#### Configuration cli.toml
 
 Create `$HOME/.rioos/etc/cli.toml`
 
@@ -59,13 +59,11 @@ email=
 auth_token=
 ```
 
-`api_server` is the Rio OS site api endpoint.
+`api_server` is the Rio OS site's api endpoint.
 
-### Commands 
+###  Identity
 
-####  Identity
-
-**Signup with Rio OS**
+#### Signup with Rio OS
 
 
 ```
@@ -74,7 +72,7 @@ $ rioos cli new
 
 ```
 
-**Login to Rio OS**
+#### Login to Rio OS
 
 
 ```
@@ -82,10 +80,11 @@ $ rioos cli new
 $ rioos login
 
 ```
-Upon successful login, `rioos` updates $HOME/rioconfig/cli.toml with 
+
+Upon successful login, `rioos` cli updates $HOME/rioconfig/cli.toml with the users  `account_id`, `token` and `email`.
 
 
-**Logout of Rio OS**
+#### Logout of Rio OS
 
 ```
 
@@ -93,51 +92,108 @@ rioos logout
 
 ```
 
-Upon successful login, `rioos` updates $HOME/rioconfig/cli.toml with 
+### Deployment
+
+#### Deploy a digitalcloud: Ubuntu
+
+asciicinema illustrates creating a digitalcloud
+<div class="example">    
+</div>
+{% asciinema_play 175777 %}
 
 
-#### Datacenter
+#### Deploy a container: Jenkins
+
+<div class="example">    
+</div>
+{% asciinema_play 1757811 %}
 
 
-<div class="example">
-    TEST
+#### Deploy a container: Nginx and horizontally scale
+
+<div class="example">    
+</div>
+{% asciinema_play 174766 %}
+
+#### List DigitalCloud
+
+<div class="example">    
+</div>
+{% asciinema_play 174766 %}
+
+#### Create Secret
+
+<div class="example">    
 </div>
 {% asciinema_play 174766 %}
 
 
-#### Deploy
+#### List Secret
 
-<div class="example">
-    TEST
+<div class="example">    
+</div>
+{% asciinema_play 174766 %}
+
+### Infrastructure
+
+This section is for administrators who will setup, manage infratucture using Rio OS in their site.
+
+#### Create Datacenter
+
+asciinema illustrates creating a datacenter
+<div class="example">    
 </div>
 {% asciinema_play 174766 %}
 
 
-#### Deploy and scale
+#### List Nodes
 
-<div class="example">
-    TEST
+<div class="example">    
 </div>
 {% asciinema_play 174766 %}
 
 
-#### Deploy and scale horizontally blockchain apps
+#### List Storages
 
-
-- Images list (list of all plans)
-
-- Nodes list
-
-- Datacenters list 
-
-- Storages list
-
-- Digitalcloud deploy list
-
-<div class="example">
-    TEST
+<div class="example">    
 </div>
 {% asciinema_play 174766 %}
+
+
+#### List Networks
+
+<div class="example">    
+</div>
+{% asciinema_play 174766 %}
+
+
+#### List Jobs
+
+<div class="example">    
+</div>
+{% asciinema_play 174766 %}
+
+
+#### List Datacenters
+
+<div class="example">    
+</div>
+{% asciinema_play 174766 %}
+
+#### List Storages
+
+<div class="example">    
+</div>
+{% asciinema_play 174766 %}
+
+
+#### List Images
+
+<div class="example">    
+</div>
+{% asciinema_play 174766 %}
+
+
 
 
 
