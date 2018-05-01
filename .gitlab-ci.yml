@@ -1,4 +1,4 @@
-image: ruby:2.3
+image: jekyll:minimal
 
 variables:
   JEKYLL_ENV: production
@@ -6,7 +6,7 @@ variables:
 pages:
   stage: deploy
   script:
-  - gem install jekyll
+  - bundle install
   - jekyll build -d public/
   artifacts:
     paths:

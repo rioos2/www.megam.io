@@ -1,26 +1,22 @@
 docs.rioos.xyz
 ==============
 
-This is the documentation repository for Rio OS => http://rio.digital/docs
+This is the documentation repository for Rio OS
 
 
-The documentation is [live here](https://agitated-lalande-9effd8.netlify.com/)
+The documentation is [live here](https://docs.rio.digital)
 
-
-The `rioos.xyz` is a temp domain for engineering to easy identification and separation only.
 
 ## Hosted
 
 At the moment this is hosted in netlify.com. 
 
-A push to this repository will refresh documentation automatically. 
+A push to `master` of this repository will refresh documentation automatically. 
 
 Login to netlify [app.netlify](https://app.netlify.com)
 
 Userid: **kishore.neelamegam@netlify.com**
 Password: **Team#4rio**
-
-*Note* You will not be need this.
 
 ## Updating documentation locally
 
@@ -84,10 +80,10 @@ git push master
 
 ```
 
-7. Provide a merge request from your `paulsanar` to `rioos`
+7. Provide a merge request from your id `paulsanar` to `rioos`
 
 
-8. When the pull request is merged, the docs get refreshed [live here](https://agitated-lalande-9effd8.netlify.com/)
+8. When the pull request is merged, the docs get refreshed [live here](https://docs.rio.digital)
 
 
 
