@@ -7,7 +7,7 @@ keywords:
 title: Documentation Rio OS v2
 description: This is an administrative and users guide for  Rio OS - worlds only private cloud operating system
 buttons:
-    - content: Let's get started now again
+    - content: Let's get started
       url: 'getting_started'
       external_url: false
     
@@ -21,11 +21,11 @@ author:
 # Grid navigation
 grid_navigation:
     - title: Getting Started
-      excerpt: In this section you'll find basic information about Rio/OS and its features. If you're first time user then you must read Getting Started section first.
+      excerpt: In this section you'll find basic information about Rio/OS and its features. If you're first time user then you must read the Getting Started section first.
       cta: Read more
       url: '/getting_started/index.html'
     - title: Installing Rio/OS
-      excerpt: In this section you'll find information on how to install Rio/OS and use it properly with entitlement. If you're first time user then you must read Getting Started section first.
+      excerpt: In this section you'll find information on how to install Rio/OS and use it properly with entitlement. If you're first time user then you must read the Getting Started section first.
       cta: Read more
       url: '/getting_started/installing'        
     - title: Command Center

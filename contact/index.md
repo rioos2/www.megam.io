@@ -20,6 +20,6 @@ page_nav:
 
 ## Information
 
-Send an email to sales@rio.company for licensing, product features, support queries or any others.
+Send an email to `sales@rio.company` for licensing, product features, support queries or any others.
 
 
