@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Scaling
-description: Page description
+description: Scale blockchain-backed apps horizontally and vertically, scale nodes and digitalcloud
 
 # Micro navigation
 micro_nav: true
@@ -15,10 +15,10 @@ micro_nav: true
 page_nav:
     prev:
         content: Security
-        url: '../../security'
+        url: '/security'
     next:
         content: Audits, Logs (Telemetry)
-        url: '../../telemetry/index.html'
+        url: '/telemetry/index.html'
 ---
 
 ## Scaling

@@ -15,15 +15,15 @@ micro_nav: true
 page_nav:
     prev:
         content: Command Center
-        url: '../../command_center/index.html'
+        url: '/command_center/index.html'
     next:
         content: Datacenters
-        url: '../../datacenters/index.html'
+        url: '/datacenters/index.html'
 ---
 
 ## CLI
 
-Command line interface cli to manage Rio/OS.
+Command line interface for Rio/OS.
 
 <div class="callout callout--warning">
     <p><strong>Supported platforms </strong> Linux.</p>
@@ -40,15 +40,15 @@ mkdir $HOME/bin
 
 wget https://github.com/rioadvancement/rioos/releases/download/2.0.0-rc3/rioos_20180427132544_Linux_amd64.tar.gz
 
-tar -xf rioos_20180409063706_Linux_amd64.tar.gz -C $HOME/bin
+tar -xf rioos_*_Linux_amd64.tar.gz -C $HOME/bin
 
-rm rioos_20180406103819_Linux_amd64.tar.gz
+rm rioos_*_Linux_amd64.tar.gz
 
 ```
 
 #### Configuration cli.toml
 
-Create `$HOME/.rioos/etc/cli.toml`
+Create a file `$HOME/.rioos/etc/cli.toml`
 
 <div class="example">
     $HOME/.rioos/etc/cli.toml
@@ -59,7 +59,7 @@ email=
 auth_token=
 ```
 
-`api_server` is the Rio OS site's api endpoint.
+Where `api_server` is your site's  Rio OS API endpoint.
 
 ###  Identity
 
@@ -96,30 +96,31 @@ rioos logout
 
 #### Deploy a digitalcloud: Ubuntu
 
-asciicinema illustrates creating a digitalcloud
+asciicinema illustrates deploying a digitalcloud
 <div class="example">    
 </div>
 {% asciinema_play 175777 %}
 
-
-#### Deploy a container: Jenkins
-
-<div class="example">    
-</div>
-{% asciinema_play 1757811 %}
-
-
-#### Deploy a container: Nginx and horizontally scale
-
-<div class="example">    
-</div>
-{% asciinema_play 174766 %}
 
 #### List DigitalCloud
 
 <div class="example">    
 </div>
 {% asciinema_play 174766 %}
+
+#### Deploy a container: Jenkins
+
+<div class="example">    
+</div>
+{% asciinema_play 175811 %}
+
+
+#### Deploy a container: Nginx and scale horizontally
+
+<div class="example">    
+</div>
+{% asciinema_play 174766 %}
+
 
 #### Create Secret
 
@@ -136,11 +137,18 @@ asciicinema illustrates creating a digitalcloud
 
 ### Infrastructure
 
-This section is for administrators who will setup, manage infratucture using Rio OS in their site.
+This section is for administrators in managing the infrastructure using Rio OS.
 
 #### Create Datacenter
 
 asciinema illustrates creating a datacenter
+<div class="example">    
+</div>
+{% asciinema_play 174766 %}
+
+
+#### List Datacenters
+
 <div class="example">    
 </div>
 {% asciinema_play 174766 %}
@@ -166,6 +174,11 @@ asciinema illustrates creating a datacenter
 </div>
 {% asciinema_play 174766 %}
 
+#### List Images
+
+<div class="example">    
+</div>
+{% asciinema_play 174766 %}
 
 #### List Jobs
 
@@ -173,25 +186,6 @@ asciinema illustrates creating a datacenter
 </div>
 {% asciinema_play 174766 %}
 
-
-#### List Datacenters
-
-<div class="example">    
-</div>
-{% asciinema_play 174766 %}
-
-#### List Storages
-
-<div class="example">    
-</div>
-{% asciinema_play 174766 %}
-
-
-#### List Images
-
-<div class="example">    
-</div>
-{% asciinema_play 174766 %}
 
 
 

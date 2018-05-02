@@ -9,13 +9,13 @@ title: Management
 description: A management interface for Rio OS
 
 # Micro navigation
-micro_nav: true### Admin
+micro_nav: true
 
 # Page navigation
 page_nav:
     prev:
-        content: Installing
-        url: '/getting_started/installing'
+        content: Command Center
+        url: '/command_center/index'
     next:
         content: CLI
         url: '../../cli/index.html'
@@ -33,7 +33,7 @@ Provides a birds eye view of the datacenter managed by Rio/OS. Ability for an ad
 
 - and more 
 
-### Dashboard
+### Monitor
 
 The intuitive dashboard displays 
 
@@ -43,21 +43,23 @@ The intuitive dashboard displays
 
 - Monitors the OS usage. Helpful for admins to quicky see which OS is used more. 
 
-![Infrastructure snapshot view](/doks-theme/assets/images/infrastructure/snapshot.png)
+![Infrastructure snapshot view](/docs/doks-theme/assets/images/infrastructure/snapshot.png)
 
 
+### Filtering
 
-### Launch Digital Cloud
+**Region**
 
-[Digital Cloud](./digitalcloud)
+**Status**
 
+### Lifecycle
 
-### Launch Containers
-
-[Containers](./containers)
-
-
-### Manage 
+**Start**
 
 
-[DigitalCloud/Containers/Blockchain Apps](./manage)
+**Stop**
+
+**Delete**
+
+### Console Access
+
