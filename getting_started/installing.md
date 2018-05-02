@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Installing
-description: This section covers the standard procedure to setup Rio/OS 2.0 *Aventura* using an ISO and another option too install Rio/OS ISO image directly on the master, node and Storage.
+description: This section covers the standard procedure to install Rio/OS 2.0 *Aventura* using an ISO and an alternative manual method in an existing OS.
 
 # Micro navigation
 micro_nav: true
@@ -18,22 +18,22 @@ page_nav:
         url: '/getting_started'
     next:
         content: Command Center
-        url: '../../command_center/index.html'
+        url: '/command_center/index.html'
 ---
 
 ## Installation
 
-Rio/OS offering two type of installation 
+Rio/OS offering two types of installation 
 
-- USB ISO 
-- Existing OS using Docker containers and native packages (deb, rpm)
+- Bootable USB Stick.
+- Existing OS using native packages (deb, rpm) and docker containers.
 
 
 ### What is installed ?
 
 The Rio OS components are grouped as per the pic.
 
-![Rio/OS Components](/doks-theme/assets/images/RIO_OS_Highlevel.png)
+![Rio/OS Components](/docs/doks-theme/assets/images/RIO_OS_Master_Software.png)
 
 
 <table>
@@ -46,7 +46,7 @@ The Rio OS components are grouped as per the pic.
   <tr>
    <td>UI
    </td>
-   <td>Command center of  Rio/OS
+   <td>Command center for Rio/OS
    </td>
   </tr>
   <tr>
@@ -70,19 +70,19 @@ The Rio OS components are grouped as per the pic.
   <tr>
    <td>API Server
    </td>
-   <td>API for Rio/OS. The heart of the system which acts as the mediator for Rio/OS system components.
+   <td>API for Rio/OS. The heart of the system which acts as the mediator for all of the  Rio/OS system components.
    </td>
   </tr>
   <tr>
    <td>Telemtry
    </td>
-   <td>Metrics collector and analytics of Rio OS 
+   <td>Metrics collector and analytics for Rio OS 
    </td>
   </tr>
   <tr>
    <td>PowerDNS
    </td>
-   <td>Assign domain names for Rio/OS system (base Rio, digital cloud, containers and blockchain apps)
+   <td>Assign domain names for Rio/OS (Base Rio, digital cloud, containers and blockchain-backed apps)
    </td>
   </tr>
   <tr>
@@ -94,13 +94,13 @@ The Rio OS components are grouped as per the pic.
   <tr>
    <td>Blockchain
    </td>
-   <td>Audit storage based on blockchain.
+   <td>Events storage based on blockchain.
    </td>
   </tr>
   <tr>
    <td>Nodelet
    </td>
-   <td>Rio/OS compute enabler. Runs all node systems 
+   <td>Rio OS compute enabler. Runs on nodes which will provide compute.
    </td>
   </tr>
   <tr>
@@ -112,17 +112,17 @@ The Rio OS components are grouped as per the pic.
   <tr>
    <td>Storlet
    </td>
-   <td>Rio/OS storage enabler. Runs on nodes that provides storage.
+   <td>Rio OS storage enabler. Runs on nodes that provides storage.
    </td>
   </tr>
 </table>
 
 
-![Rio/OS Hub and Spoke](/doks-theme/assets/images/RIO_OS_Highlevel.png)
+![Rio/OS Hub and Spoke](/docs/doks-theme/assets/images/RIO_OS_Highlevel.png)
 
 ## Master
 
-**A Master contains the Rio OS components.**
+**A Master contains the core Rio OS components.**
 
 *   UI
 *   API Server
@@ -148,17 +148,17 @@ Each and every single server is considered as a node in Rio/OS. We can even use 
 
 Digital cloud, container and blockchain apps consume space from storage server. 
 
-**A Storage contains the component.**
+**A Storage component.**
 
 *   Storlet
 
-### ISO Installation
+### Option 1: ISO Installation
 
-ISO is packed with Ri OS components that is sufficient to make a private cloud environment.
+ISO is packed with Rio OS components that is sufficient to make a private cloud environment.
 
-Contact [sales](sales@rio.company) requesting access to the link.
+Contact [sales](mailto::sales@rio.company) requesting access to the link.
 
-[Download](http://bit.ly/gdrive)` the ISO from the [here](https://drive.google.com).
+[Download](http://bit.ly/gdrive){:target="_blank"} the ISO from [here](https://drive.google.com){:target="_blank"}
 
 
 <div class="callout callout--info">
@@ -166,11 +166,11 @@ Contact [sales](sales@rio.company) requesting access to the link.
 </div>
 
 
-## Manual
+## Option 2: Manual
 
-Rio/OS comes packaged as a combination of native debian/redhat packages and  docker containers stored in a  private registry.
+Rio/OS comes packaged as a combination of native debs/rpm packages and  docker containers stored in a  private registry.
 
-### Setup Docker
+### Debian based: Setup Docker 
 
 
 ```
@@ -207,7 +207,7 @@ sudo systemctl status docker
 
 ### Access Registry
 
-Contact [sales](sales@rio.company) requesting access to the link.
+Contact [sales](mailto::sales@rio.company) requesting access to the below link.
 
 #### Download the registry CA certificate
 
@@ -261,8 +261,7 @@ After successfully accessing the Rio/OS private registry.
 </div>
 
 <div class="callout callout--info">
-    <p><strong>Version</strong>2.0.0-rc3 is the latest version tag and in the below install notes. This is subjected to change as we progress denoted by $RIOOS_VERSION_TAG.
-    Verify the release notes for newer versions.</p>    
+    <p><strong>Version</strong>2.0.0-rc3 is the latest version referenced as $RIOOS_VERSION. Verify the release notes for newer versions.</p>    
 </div>
 
 * export variables
@@ -307,7 +306,7 @@ sudo docker run -d --name rioospostgres -e POSTGRES_PASSWORD=supersecret -v /var
 
 *   API Server
 
-Central body of Rio/OS. This is an Intermediary to the UI, controller, scheduler, nodelet and storlet. 
+Heart of Rio/OS. This is an Intermediary to the UI, controller, scheduler, nodelet and storlet. 
 
 
 ```
@@ -324,7 +323,7 @@ sudo docker run -d  -p $MY_IP_ADDRESS::8000:8000 --name=rioosvnc --restart alway
 
 ```
 
-*   Blockchain Audits Server
+*   Blockchain Events Server
 
 ```
 
@@ -335,7 +334,7 @@ sudo docker run -d  -p $MY_IP_ADDRESS::8000:8000 --name=rioosvnc --restart alway
 
 *   Telemetry
 
-This is used to pull metrics for all virtual machine
+This is used to pull metrics for all digital cloud, containers, blockchain-backed apps, nodes.
 
 
 ```
@@ -345,7 +344,7 @@ sudo docker run -d  -p $MY_IP_ADDRESS::9090:9090 --name=prometheus --restart alw
 
 *   PowerDNS
 
-Assign domain name to Rio/OS packages and all running VM, Container
+Assign domain name to Rio/OS packages and all running digital cloud, containers. blockchain-backed apps.
 
 
 ```
@@ -357,14 +356,12 @@ sudo docker run -d --name rioospowerdns --link rioopostgres:postgres -p $MY_IP_A
 
 * Logs Collector
 
-This is an backend of Fluent-bit. All log data are stored in influxDB
-
-
+Fluentbit is the logs collector. 
 
 
 * Logs storage plugin for  InfluxDB 
 
-This is an backend of Fluent-bit. All log data are stored in influxDB
+This is a logs storage for Fluentbit. All log data are stored in influxDB
 
 
 ```
@@ -376,7 +373,7 @@ sudo docker run -d --name influx -p $MY_IP_ADDRESS:8086:8086 -v /var/lib/rioos/i
 
 * Logs storage plugin for  Elastic Search
 
-This is an backend of Fluent-bit. Optional log data are stored in Elastic Search
+This is another logs storage for Fluentbit.
 
 
 ```
@@ -386,7 +383,9 @@ sudo docker run -d --name elasticsearch -p $MY_IP_ADDRESS:8086:8086 -v /var/lib/
 ```
 
 
-### Node
+### Instal Nodelet
+
+Nodelet is installed in every compute node. 
 
 The following operating systems are supported. 
  
@@ -398,7 +397,7 @@ The following operating systems are supported.
 
 #### Debian
 
-This instruction applies to `Ubuntu 16.04/18.04`, `Debian 8/9` and Rio OS Aventura.
+This instruction applies to `Rio OS Aventura`, `Ubuntu 16.04/18.04` and `Debian 8/9`.
 
 ```
 
@@ -430,7 +429,7 @@ sudo yum install -y rioos-nodelet rioos-network
 
 ```
 
-Now, You have to successfully Installed nodelet.
+See [Nodes guide](/docs/nodes) to configure and use the nodes
 
 ### Storage
 
@@ -442,9 +441,13 @@ The following operating systems are supported.
 - Ubuntu 16.0/18.04
 
 
-#### Debian
+#### Debian based
 
-This instruction applies to `Ubuntu 16.04/18.04`, `Debian 8/9` and Rio OS Aventura.
+These instruction applies to 
+
+`Rio OS Aventura`
+`Ubuntu 16.04/18.04`
+`Debian 8/9`
 
 ```
 
@@ -460,7 +463,7 @@ sudo apt-get install -y rioos-storelet rioos-network
 
 #### RedHat based
 
-This instruction applies to CentOS 7.x.
+These instructions applies to CentOS 7.x.
 
 ```
 
@@ -474,7 +477,7 @@ sudo yum install -y rioos-nodelet rioos-network
 
 ```
 
-Read [Detail storage guide](/storages) to configure and use the storage.
+Read more about [Storage](/docs/storages) to configure and use the storage.
 
 ## Datacenter
 
@@ -482,11 +485,11 @@ Now that the basic constructs are setup, its time to setup the datacenter.
 
 The taks that are needed are
 
-*   Connect Compute
+*   Connecting Compute
 *   Create Storage and mount disks
 *   Configure Networking (subnets)
 *   Create Datacenter and attach compute nodes, storage and netoworking.
 
-Read [Detail datacenter guide](/datacenters) to configure and use the storage.
+Read more about [Datacenters](/docs/datacenters) to configure and use the datacenter.
 
 

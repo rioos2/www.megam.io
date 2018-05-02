@@ -56,7 +56,6 @@ gem install bundler
 ```
 bundle install 
 
-
 jekyll clean
 
 jekyll serve

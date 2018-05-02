@@ -15,79 +15,48 @@ micro_nav: true
 page_nav:
     prev:
         content: Audits, Logs (Telemetry)
-        url: '../../telemetry'
+        url: '/telemetry'
     next:
         content: API Reference
-        url: '../../api_reference'
+        url: '/api_reference'
 ---
 
 ## Quick Starters
 
-Rio/OS is the worlds only private cloud operating system.
+Quick starters are for users who wish to quickly start developing with Rio OS.
+
+Install the [Pre requisites](/docs/quick_starters/prerequisites)
 
 ### Deploy a debian digitalcloud
 
-Install the [Pre requisites](pre_requisites)
+> Go To Rio OS UI
 
-> Go To Rio OS
-
-<div class="callout callout--info">
-    <p><strong>Rio OS UI</strong> Rio OS has a private url to access the same. Contact admin for  Rio OS access details.
-</div>
-
-
+Refer [link](/docs/command_center/digitalcloud) to quickly deploy a digital cloud.
 
 ### Deploy a debian digitalcloud  using CLI 
 
-Install the [Pre requisites](pre_requisites)
-
 > Go To Rio OS
 
-<div class="callout callout--info">
-    <p><strong>Rio OS CLI</strong> Download and install Rio OS CLI as seen in [cli](cli).
-</div>
+Refer [link](/docs/cli) to quickly deploy a digital cloud using CLI.
 
-### Deploy a container - ?
+### Deploy a container - Nginx
 
-Install the [Pre requisites](pre_requisites)
+> Go To Rio OS UI
 
-> Go To Rio OS
-
-<div class="callout callout--info">
-    <p><strong>Rio OS UI</strong> Rio OS has a private url to access the same. Contact admin for  Rio OS access details.
-</div>
+Refer [link](/docs/command_center/container) to quickly deploy a container - Nginx.
 
 
+### Deploy a container - Nginx using CLI 
 
-### Deploy a container - ? using CLI 
+Refer [link](/docs/cli) to quickly deploy a container - Nginx using CLI.
 
-Install the [Pre requisites](pre_requisites)
+### Deploy a Blockchain App
 
-> Go To Rio OS
+> Go To Rio OS UI
 
-<div class="callout callout--info">
-    <p><strong>Rio OS CLI</strong> Download and install Rio OS CLI as seen in [cli](cli).
-</div>
-
-
-### Deploy a blockchain app
-
-Install the [Pre requisites](pre_requisites)
-
-> Go To Rio OS
-
-<div class="callout callout--info">
-    <p><strong>Rio OS UI</strong> Rio OS has a private url to access the same. Contact admin for  Rio OS access details.
-</div>
-
+Refer [link](/docs/command_center/container) to quickly deploy a container backed by blockchain.
 
 
 ### Deploy a blockchain app  using CLI 
 
-Install the [Pre requisites](pre_requisites)
-
-> Go To Rio OS
-
-<div class="callout callout--info">
-    <p><strong>Rio OS CLI</strong> Download and install Rio OS CLI as seen in [cli](cli).
-</div>
+Refer [link](/docs/cli) to quickly deploy a container - Nginx using CLI.

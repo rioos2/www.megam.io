@@ -15,10 +15,10 @@ micro_nav: true
 page_nav:
     prev:
         content: CLI
-        url: '../../cli/index.html'
+        url: '/cli/index.html'
     next:
         content: Nodes
-        url: '../../nodes/index.html'
+        url: '/nodes/index.html'
 ---
 
 
@@ -28,7 +28,8 @@ A Datacenter is a cluster of group of nodes, networking and storage identified b
 
 You can group as many clusters as you can and identify them with different location names.
 
-![A cluster of nodes with private and public networking/local storage grouped in lLocation NEWYORK 01](http://via.placeholder.com/550x350)
+![A cluster of nodes with private and public networking/local storage grouped in Location NEWYORK 01](/docs/doks-theme/assets/images/infra/RIO_OS_Datacenter.png)
+
 
 
 ### Location
@@ -38,8 +39,25 @@ You can group as many clusters as you can and identify them with different locat
 
 A location has multiple nodes. Network is attached to each node. *Make sure the storage and network are setup before a location is created*.
 
-To create a location, Refer [Asciicast in cli](/cli)
+#### Create a location
 
-![User deploying in location NEWYORK 01](http://via.placeholder.com/550x350)
+**CLI**
 
-Upon configuration the location  appears in the [Rio OS user interface](/command_center).
+Watch [asciinema](/docs/cli) to create a location.
+
+**UI**
+
+Click > **Locations** > **Create**
+
+![A cluster of nodes with private and public networking/local storage grouped in Location NEWYORK 01](/docs/doks-theme/assets/images/infra/create_location.png)
+
+
+Click > **Create**
+
+
+![A cluster of nodes with private and public networking/local storage grouped in Location NEWYORK 01](/docs/doks-theme/assets/images/infra/create_location.png)
+
+
+The newly created location is listed as below.
+
+![A cluster of nodes with private and public networking/local storage grouped in Location NEWYORK 01](/docs/doks-theme/assets/images/infra/create_location_done.png)
