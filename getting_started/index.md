@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Getting Started
-description: In this section you'll find basic information about Rio/OS and its features. If you're first time user then you should read the Getting Started section first.
+description: In this section you'll find basic information about Rio OS and its features. If you are a first time user then you must read the Getting Started section first.
 
 
 # Micro navigation
@@ -16,31 +16,31 @@ micro_nav: true
 page_nav:
     next:
         content: Installing Rio/OS
-        url: 'installing'
+        url: '/getting_started/installing'
 ---
 
 ## Introduction
 
-In this section you'll find basic information about [Rio/OS](http://rio.digital) and how to install and use it properly. If you're first time user then you must read the Getting Started section first.
+In this section you'll find information about [Rio/OS](http://rio.digital){:target="_blank"} and how to install and use it properly. If you're first time user then you must read the Getting Started section first.
 
 
 ### Rio/OS
 
 Rio OS is the world's first private cloud operating system. Version 2.0 of the OS is code- named `Aventura`.  
 
-For more  information, visit [Rio.digital](http://rio.digital). 
+For more  information, visit [Rio.digital](http://rio.digital){:target="_blank"}. 
 
 Rio OS focuses on security from the ground up. Rio OS has ability to launch virtual private servers (VPS), containers and blockchain-backed apps. With Rio OS you don't need to think about servers at all.
 
 
-![Rio/OS Layered Architecture](/doks-theme/assets/images/RIO_OS_LayeredArchitecture.png)
+![Rio/OS Layered Architecture](/docs/doks-theme/assets/images/RIO_OS_LayeredArchitecture.png)
 
 
  *Rio OS* is `commercially licensed`. 
 
  | License Type | Activation | Elapses |
  | Trial Version |  Automatically starts when Rio OS is run | 14 days |
- | Standard Version | Contact [Rio.digital](http://rio.digital) |  perpetual |
+ | Standard Version | Contact [sales@rio.company](mailto::sales@rio.company){:target="_blank"} |  perpetual |
 
 
 
@@ -51,7 +51,7 @@ The following concepts are used in Rio OS.
 
 A high-level overview image depicting Rio OS managing  datacenters is listed below.
 
-![Rio/OS (With nodes connected)](/doks-theme/assets/images/RIO_OS_Highlevel.png)
+![Rio/OS (With nodes connected)](/docs/doks-theme/assets/images/RIO_OS_Highlevel.png)
 
 
 ### Datacenter
@@ -80,16 +80,16 @@ Storage is a collection of disks in nodes consumed by virtual private servers, c
 
 - Local
 - Network File System (NFS)
-- [Ceph](https://ceph.com)
-- [OpenIO](https://openio.com)
+- [Ceph](https://ceph.com){:target="_blank"}
+- [OpenIO](https://openio.io){:target="_blank"}
 
 #### Network
 
-Different subnets consumed by virtual private servers (VPS), containers and blockchain apps. Virtual network on the control plane in nodes Rio OS are configured by administrators from the `Infrastructure` option in `Command Center`.
+Different subnets are consumed by virtual private servers (VPS), containers and blockchain-backed apps. To enable management of networking in VPS, containers and blockchain backed apps, an API driven Virtual network on the control plane in Rio OS orchestrates nodes. Easy configuration of Virtual Network by administrators from the `Command Center`.
 
 ### Scaling
 
-Scale changes by a developer automatically gets refreshed to add more containers or increase each containers’ resources.
+Scale add more containers or increase each container's resources.
 
 #### Horizontal
 
@@ -118,11 +118,11 @@ Code changes by a developer automatically gets refreshed.
 
 #### Private DNS
 
-DNS managed using powerdns.
+Setup your own DNS, manage business applications like you do in public using names. DNS is managed using scalable PowerDNS.
 
 ### Digital Cloud
 
-Allows users to spin operating systems of your choice (linux - any flavors, freebsd, windows, coreos) and guard them with tight security with access controlled via a mobile app. The digital cloud is wrapped around with blockchain audits.
+Allows users to spin operating systems of your choice (Linux - any flavors, FreeBSD, Windows, CoreOS) and guard them with tight security with access controlled via a mobile app.
 
 ### Containers
 
@@ -130,22 +130,22 @@ Allows users to use container orchestration using docker from public or private 
 
 ### Blockchain
 
-Provides Developers with tools to deploy their own applications stored in private Git, svn, (*public Github*) with any of these platforms Java, Ruby, Nodejs, Scala, Python, PHP, Golang, Rust-lang, C/C++ whilst utilizing blockchain technologies.
+Provides Developers with tools to deploy their own applications stored in private Git, (*public Github*) with any of these platforms Java, Ruby, Nodejs, Scala, Python, PHP, Golang, Rust-lang, C/C++ whilst utilizing blockchain technologies.
 
 ### Powerful CLI
 
-Allows users to effortlessly manage their apps, services, and infrastructure with a powerful Command Line Interface(CLI) and a easy to use Graphical User Interface(GUI).
+Allows users to effortlessly manage their apps, services, and infrastructure with a powerful Command Line Interface(CLI).
 
 
 ### Security
 
 #### Identity & Access Management
 
-Fine-grained access control & integration with built-in roles and permisssion. Provide additional spacing using Teams and Organization with more granularity in isolation.
+Fine-grained access control & integration with built-in roles and permisssion. Provide additional spacing using Origin and Teams with more granularity in isolation.
 
 Support for multiple identity providers SAML 2.0 and OpenID Connect.
 
-Import from (LDAP, Active Directory) in Rio OS identity.
+Import from (LDAP, Active Directory) seamlessly into Rio OS Identity.
 
 #### Secrets
 
@@ -154,47 +154,47 @@ Allows for the secure distribution of sensitive information to running applicati
 
 ### Public Rio.Marketplace
 
-Rio marketplace is available publicly in [Rio.marketplace](https://marketplace.rioos.xyz) with apps to use. The categories and the curated apps available are shown below. 
+Headless Rio marketplace is available public at [Rio.marketplace](https://marketplace.rioos.xyz){:target="_blank"} with useful apps to use. The categories and their curated apps are shown below. 
 
 #### Blockchain
 
-* [Hyperledger](https://www.hyperledger.org/)
-* [Erc20](http://www.ethdocs.org/en/latest/)
+* [Hyperledger](https://www.hyperledger.org/){:target="_blank"}
+* [Erc20](http://www.ethdocs.org/en/latest/){:target="_blank"}
 
 #### Developers
 
-* [PHP](https://secure.php.net/)
-* [Java](https://www.java.com/en/)
-* [Ruby](https://www.ruby-lang.org/en/)
-* [Scala](http://scala-lang.org/)
-* [Node.js](https://nodejs.org/en/)
-* [Python](https://www.python.org/)
-* [RustLang](https://www.rust-lang.org/en-US/)
-* [OCaml](https://ocaml.org/)
+* [PHP](https://secure.php.net/){:target="_blank"}
+* [Java](https://www.java.com/en/){:target="_blank"}
+* [Ruby](https://www.ruby-lang.org/en/){:target="_blank"}
+* [Scala](http://scala-lang.org/){:target="_blank"}
+* [Node.js](https://nodejs.org/en/){:target="_blank"}
+* [Python](https://www.python.org/){:target="_blank"}
+* [RustLang](https://www.rust-lang.org/en-US/){:target="_blank"}
+* [OCaml](https://ocaml.org/){:target="_blank"}
 
 #### Parallel computing
 
-* [NVIDIA CUDA](https://developer.nvidia.com/cuda-zone)
+* [NVIDIA CUDA](https://developer.nvidia.com/cuda-zone){:target="_blank"}
 
 #### Webservers
 
-* [Apache2](https://httpd.apache.org/)
-* [Nginx](https://www.nginx.com/resources/wiki/start/index.html)
-* [Caddy](https://caddyserver.com/)
+* [Apache2](https://httpd.apache.org/){:target="_blank"}
+* [Nginx](https://www.nginx.com/resources/wiki/start/index.html){:target="_blank"}
+* [Caddy](https://caddyserver.com/){:target="_blank"}
 										
 #### Databases
 
-* [CouchDB](https://couchdb.apache.org/)
-* [PostgreSQL](https://www.postgresql.org/)
-* [CockroachDB](https://www.cockroachlabs.com/)
-* [Memcache](https://www.memcached.org/)
-* [MariaDB](https://mariadb.org/)
-* [Cassandra](https://cassandra.apache.org/)
-* [InfluxDB](https://www.influxdata.com/time-series-platform/influxdb/)
-* [Aerospike](https://www.aerospike.com/)
-* [RethinkDB](https://www.rethinkdb.com/)
-* [Neo4J](https://neo4j.com/)
-* [OrientDB](https://orientdb.com/)
-* [VoltDB](https://www.voltdb.com/)
-* [RavenDB](https://ravendb.net/)
-* [OpenLDAP](http://www.openldap.org/)
+* [CouchDB](https://couchdb.apache.org/){:target="_blank"}
+* [PostgreSQL](https://www.postgresql.org/){:target="_blank"}
+* [CockroachDB](https://www.cockroachlabs.com/){:target="_blank"}
+* [Memcache](https://www.memcached.org/){:target="_blank"}
+* [MariaDB](https://mariadb.org/){:target="_blank"}
+* [Cassandra](https://cassandra.apache.org/){:target="_blank"}
+* [InfluxDB](https://www.influxdata.com/time-series-platform/influxdb/){:target="_blank"}
+* [Aerospike](https://www.aerospike.com/){:target="_blank"}
+* [RethinkDB](https://www.rethinkdb.com/){:target="_blank"}
+* [Neo4J](https://neo4j.com/){:target="_blank"}
+* [OrientDB](https://orientdb.com/){:target="_blank"}
+* [VoltDB](https://www.voltdb.com/){:target="_blank"}
+* [RavenDB](https://ravendb.net/){:target="_blank"}
+* [OpenLDAP](http://www.openldap.org/){:target="_blank"}

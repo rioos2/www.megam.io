@@ -9,7 +9,7 @@ title: Command Center
 description: A snapshot view of your datacenter
 
 # Micro navigation
-micro_nav: true### Admin
+micro_nav: true
 
 # Page navigation
 page_nav:
@@ -18,7 +18,7 @@ page_nav:
         url: '/getting_started/installing'
     next:
         content: CLI
-        url: '../../cli/index.html'
+        url: '/cli/index.html'
 ---
 
 ## Command Center
@@ -43,19 +43,18 @@ The intuitive dashboard displays
 
 - Monitors the OS usage. Helpful for admins to quicky see which OS is used more. 
 
-![Infrastructure snapshot view](/doks-theme/assets/images/infra/snapshot.png)
-
+![Infrastructure snapshot view](/docs/doks-theme/assets/images/infra/snapshot.png)
 
 
 ### Launch Digital Cloud
 
 [Read Rio OS concepts about digital cloud](../getting_started/index)
 
-GoTo - [Launching containers](./container) for the sequence of steps with illustration.
+GoTo - [Launching digitalcloud](./digitalcloud) for the sequence of steps with illustration.
 
 ### Launch Container
 
-GoTo - [Launching digital cloud](./digitalcloud) for the sequence of steps with illustration.
+GoTo - [Launching container](./container) for the sequence of steps with illustration.
 
 
 ### Manage 
