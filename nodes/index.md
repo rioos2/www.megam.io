@@ -42,15 +42,15 @@ You must have completed [installation of nodelet](/docs/getting_started/installi
 </div>
 
 
-### Installation
+### Running
 
 
 ``` 
 
 
-sudo systemctl stop rioos_nodelet
-
 sudo systemctl start rioos_nodelet
+
+sudo systemctl status ioos_nodelet
 
 
 ```
@@ -65,7 +65,46 @@ sudo journalctl -u rioos_nodelet.service -f
 
 ### Register
 
-The nodes are registered into Rio OS automatically with the `hostname` and an unique `machine id` with the flag `Scheduled` true or false.  
+The nodes are registered into Rio OS automatically with the `hostname` and an unique `machine id` with the flag `Scheduled` true or false. 
+
+### Configuration
+
+- Change the smtp host 
+
+```
+
+nano /var/lib/rioos/context/init.sh
+
+
+``` 
+
+- Change the slacktoken
+
+```
+
+nano /var/lib/rioos/context/init.sh
+
+
+``` 
+
+- Copy the gulp.rioconfig from /var/lib/rioos/config to /var/lib/rioos/context
+
+```
+
+cp /var/lib/rioos/config/gulp.rioconfig /var/lib/rioos/context
+
+
+``` 
+
+- Change the log storage (InfluxDB) in fluent-bit.conf
+
+```
+
+nano /var/lib/rioos/context/fluent-bit.conf
+
+
+``` 
+
 
 ### Scaling
 

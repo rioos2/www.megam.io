@@ -18,14 +18,17 @@ page_nav:
         url: '/'
 ---
 
-## 2.0.0-rc4 : May 04, 2018 (Upcoming milestone)
+## 2.0.0-rc4 : May 04, 2018
 
-- [Bugs Planned](https://gitlab.com/groups/rioos/-/milestones/200rc4?title=2.0.0.rc4){:target="_blank"}
+- [Bugs Fixed](https://gitlab.com/groups/rioos/-/milestones/200rc4?title=2.0.0.rc4){:target="_blank"}
 
 *Features*
 
-- Access containers using a console upon launch.
-- Support multi session of the same user based on device.
+- User login from devices are tracked with multi sessions.
+- Node statistics charts of disk usage.
+- Node statistics network speed usage  selection themed.
+- Mailers for running, security are themed.
+- Qemu when resized images using unit string "M" instead of "MiB" in Ubuntu 18.04
 
 ## 2.0.0-rc3 : April 27, 2018
 
