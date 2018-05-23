@@ -26,7 +26,7 @@ page_nav:
 
 A Datacenter is a cluster of group of nodes, networking and storage identified by a name called location. 
 
-You can group as many clusters as you can and identify them with different location names.
+You can group as many clusters as you can and identify them with location names.
 
 ![A cluster of nodes with private and public networking/local storage grouped in Location NEWYORK 01](/docs/doks-theme/assets/images/infra/RIO_OS_Datacenter.png)
 

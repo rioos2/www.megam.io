@@ -167,7 +167,30 @@ Download the ISO from [the private link here](https://drive.google.com/drive/u/1
 </div>
 
 
-## Option 2: Manual
+## Option 2: Autorio:  Recommended
+
+Rio/OS comes packaged as a combination of native debs/rpm packages and  docker containers stored in a  private registry.
+
+### Pre requistes
+
+
+<div class="callout callout--info">
+    <p><strong>Pre requisites</strong>Ruby 2.5.x installed in your workstation.</p> 
+</div>
+
+
+### Install 
+
+Visit [Autorio](https://github.com/rioadvancement/autorio) for detailed instruction.
+
+
+### Rollback
+
+Visit [Autorio](https://github.com/rioadvancement/autorio) for detailed instruction.
+
+
+
+## Option 3: Manual
 
 Rio/OS comes packaged as a combination of native debs/rpm packages and  docker containers stored in a  private registry.
 
@@ -617,9 +640,9 @@ sudo yum install -y rioos-storlet
 
 Read more about [Storage](/docs/storages) to configure and use the storage.
 
-## Datacenter
+## Location
 
-Now that the basic constructs are setup, its time to setup the datacenter. 
+Now that the basic constructs are setup, its time to setup a location. 
 
 The taks that are needed are
 
@@ -628,6 +651,6 @@ The taks that are needed are
 *   Configure Networking (subnets)
 *   Create Datacenter and attach compute nodes, storage and netoworking.
 
-Read more about [Datacenters](/docs/datacenters) to configure and use the datacenter.
+Read more about [Locations](/docs/datacenters) to configure and use the datacenter.
 
 

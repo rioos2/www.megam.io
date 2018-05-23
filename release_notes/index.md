@@ -18,6 +18,73 @@ page_nav:
         url: '/'
 ---
 
+
+## 2.0.0-rc8 : June 01, 2018 *upcoming
+
+- [Bugs Fixed](https://gitlab.com/groups/rioos/-/milestones/200rc4?title=2.0.0.rc8){:target="_blank"}
+
+*Features - tentative*
+
+- Document CI/CD with sample git projects.
+
+- Document Horizontal scaling/Vertical scaling with samples.
+
+- Self healing - using node controller which updates the states of the node periodically.
+
+- Blockchain backed apps using hyperledger fabric/chaincode.
+
+
+## 2.0.0-rc7 : May 25, 2018
+
+- [Bugs Fixed](https://gitlab.com/groups/rioos/-/milestones/200rc4?title=2.0.0.rc7){:target="_blank"}
+
+*Features*
+
+- UI Infrastructure with options to edit location, virtual network.
+
+- Performance testing of Rio/OS using [rioosperf using locust.io](https://github.com/rioadvancement/rioosperf){:target="_blank"}
+
+- Find the bottlenecks in preformance of telemetry processor with an assumption of 100 users (50k http requests per second)
+
+- Test the recoverable states of containers.
+
+- Stability testing and fixes for scheduler to process jobs correctly.
+
+- Push the containers built into a private registry and process continious deploy - Good case.
+
+## 2.0.0-rc6 : May 18, 2018
+
+- [Bugs Fixed](https://gitlab.com/groups/rioos/-/milestones/200rc4?title=2.0.0.rc6){:target="_blank"}
+
+*Features*
+
+- Install Rio/OS using [autorio](https://github.com/rioadvancement/autorio){:target="_blank"}
+
+- UI Infrastructure - preview.
+
+- Notification mailers moved to api server.
+
+- Horizontal scaler numbers new instances with incremental numerics
+
+- Nodelet when restarted brings up the state of digitalcloud, container to the last known state.
+
+
+## 2.0.0-rc5 : May 11, 2018
+
+- [Bugs Fixed](https://gitlab.com/groups/rioos/-/milestones/200rc4?title=2.0.0.rc5){:target="_blank"}
+
+*Features*
+
+- CLI perform CI/CD using BuildConfig.
+
+- CLI perform clean logout by wiping off the device session.
+
+- Launch containers from private registry 
+
+- Dashboard metrics - statistics of node' process metrics/disk IO.
+
+- Nodelet keeps upto date status of containers/VM by probing them periodically.
+
 ## 2.0.0-rc4 : May 04, 2018
 
 - [Bugs Fixed](https://gitlab.com/groups/rioos/-/milestones/200rc4?title=2.0.0.rc4){:target="_blank"}
