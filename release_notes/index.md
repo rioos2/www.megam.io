@@ -18,20 +18,32 @@ page_nav:
         url: '/'
 ---
 
+## 2.0.0-rc9 : June 08, 2018 
 
-## 2.0.0-rc8 : June 01, 2018 *upcoming
-
-- [Bugs Fixed](https://gitlab.com/groups/rioos/-/milestones/200rc4?title=2.0.0.rc8){:target="_blank"}
+- [Bugs Fixed](https://gitlab.com/groups/rioos/-/milestones/200rc9?title=2.0.0.rc9){:target="_blank"}
 
 *Features - tentative*
 
-- Document CI/CD with sample git projects.
+- Build a blockchain network using Hyperledger fabric
+
+- Create a blockchain app using chaincode for insurance.
+
+
+## 2.0.0-rc8 : June 01, 2018 
+
+- [Bugs Fixed](https://gitlab.com/groups/rioos/-/milestones/200rc8?title=2.0.0.rc8){:target="_blank"}
+
+*Features - tentative*
+
+- Design documentation for building a blockchain network using Hyperledger Fabric
+
+- Design documentation for creating a blockchain app using chaincode backed by blockchain network
+
+- Document CI/CD with an [example projects](https://github.com/rioadvancement/blockchain-demo).
 
 - Document Horizontal scaling/Vertical scaling with samples.
 
 - Self healing - using node controller which updates the states of the node periodically.
-
-- Blockchain backed apps using hyperledger fabric/chaincode.
 
 
 ## 2.0.0-rc7 : May 25, 2018

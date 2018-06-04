@@ -24,14 +24,22 @@ grid_navigation:
       excerpt: In this section you'll find basic information about Rio/OS and its features. If you are a first time user then you must read the Getting Started section first.
       cta: Read more
       url: '/getting_started/index.html'
-    - title: Installing Rio/OS
+    - title: Install Rio/OS
       excerpt: In this section you'll find information on how to install Rio/OS and use it properly with entitlement. If you are a first time user then you must read the Getting Started section first.
       cta: Read more
       url: '/getting_started/installing'        
+    - title: Plan Rio/OS
+      excerpt: In this section you'll find information on system requirements to install Rio/OS. This section is relevant for administrators. If you are a first time user then you must read the Getting Started section first.
+      cta: Read more
+      url: '/getting_started/system_requirements'               
+    - title: High Availability
+      excerpt: In this section you'll find information on system requirements to install Rio/OS. This section is relevant for administrators. If you are a first time user then you must read the Getting Started section first.
+      cta: Read more
+      url: '/high_availability'              
     - title: Command Center
       excerpt: Learn how to manage your datacenter, deploy using an intuitive Rio OS command center.
       cta: Read more
-      url: '/command_center'        
+      url: '/command_center'
     - title: CLI
       excerpt: In this section you'll find basic information about how to use Rio OS using CLI.
       cta: Read more
@@ -64,6 +72,10 @@ grid_navigation:
       excerpt: In this section you'll find basic information about the types of audit information stored in immutable storage, log collectors, and telemetry.
       cta: Read more
       url: '/telemetry'
+    - title: Deploy Blockchain backed apps
+      excerpt: In this section you'll learn how to get started in spinning blockchain backed apps in Rio OS.
+      cta: Read more
+      url: '/blockchaindev'      
     - title: Quick Starters
       excerpt: In this section you'll learn how to get started in spinning digital cloud, containers, blockchain apps in Rio OS.
       cta: Read more

@@ -5,7 +5,7 @@ keywords:
 comments: false
 
 # Hero section
-title: Installing
+title: Install
 description: This section covers the standard procedure to install Rio/OS 2.0 *Aventura* using an ISO and an alternative manual method in an existing OS.
 
 # Micro navigation
@@ -21,7 +21,7 @@ page_nav:
         url: '/command_center/index.html'
 ---
 
-## Installation
+## Install
 
 Rio/OS offering two types of installation 
 

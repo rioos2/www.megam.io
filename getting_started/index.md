@@ -15,8 +15,8 @@ micro_nav: true
 # Page navigation
 page_nav:
     next:
-        content: Installing Rio/OS
-        url: '/getting_started/installing'
+        content: Plan Rio/OS (System Requirements)
+        url: '/getting_started/system_requirements'
 ---
 
 ## Introduction
