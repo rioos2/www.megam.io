@@ -11,7 +11,7 @@ task :local => :clean do
   puts "✔ Local done"
 end
 
-task :ship do
+task :ship => :clean do
   rsync = %x(sudo rsync -avz -e "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" --delete --progress $HOME/code/rioos/ruby/docs.rioos.xyz/_site/ 159.65.224.176:/var/www/rio.digital/htdocs/docs/)
   puts rsync
   puts "✔ Shipped done"
