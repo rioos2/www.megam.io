@@ -28,20 +28,20 @@ page_nav:
 
 - Create a blockchain app using chaincode for insurance.
 
+- Document CI/CD with an [example project](https://github.com/rioadvancement/blockchain-demo).
+
+- Document Horizontal scaling/Vertical scaling with samples.
+
 
 ## 2.0.0-rc8 : June 01, 2018 
 
 - [Bugs Fixed](https://gitlab.com/groups/rioos/-/milestones/200rc8?title=2.0.0.rc8){:target="_blank"}
 
-*Features - tentative*
+*Features*
 
 - Design documentation for building a blockchain network using Hyperledger Fabric
 
 - Design documentation for creating a blockchain app using chaincode backed by blockchain network
-
-- Document CI/CD with an [example projects](https://github.com/rioadvancement/blockchain-demo).
-
-- Document Horizontal scaling/Vertical scaling with samples.
 
 - Self healing - using node controller which updates the states of the node periodically.
 

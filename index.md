@@ -33,7 +33,7 @@ grid_navigation:
       cta: Read more
       url: '/getting_started/system_requirements'               
     - title: High Availability
-      excerpt: In this section you'll find information on system requirements to install Rio/OS. This section is relevant for administrators. If you are a first time user then you must read the Getting Started section first.
+      excerpt: In this section you'll find information on self healing, disaster recovery using Rio/OS. This section is relevant for administrators. If you are a first time user then you must read the Getting Started section first.
       cta: Read more
       url: '/high_availability'              
     - title: Command Center
