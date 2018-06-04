@@ -293,6 +293,9 @@ The [CA certificate](https://drive.google.com/open?id=1s43DatiJHgbdXNdlcc8TYYW0A
 
 Copy the downloaded `ca.crt` into `/etc/docker/certs.d/$RIOOS_REGISTRY` directory
 
+mv $CA_CRT /etc/docker/certs.d/$RIOOS_REGISTRY
+
+exit
 
 ```
 sudo -s
@@ -393,8 +396,13 @@ sudo docker run -d -p $MY_IP_ADDRESS:443:8000 --name=rioosui_$RIOOS_VERSION -v $
 ```
 
 sudo docker run -d --net=host -p $MY_IP_ADDRESS:10252:10252 --name=riooscontroller_$RIOOS_VERSION -e DNS_ENDPOINT=$DNS_ENDPOINT -e API_SERVER=$API_SERVER -e WATCH_SERVER=$WATCH_SERVER -v $RIOOS_CONFIG_HOME:$RIOOS_CONFIG_HOME --restart always $RIOOS_REGISTRY/riooscontroller:$RIOOS_VERSION
+<<<<<<< HEAD
 
 
+=======
+
+
+>>>>>>> origin/master
 sudo docker run -d --net=host -p $MY_IP_ADDRESS:10251:10251 --name=rioosscheduler_$RIOOS_VERSION -e API_SERVER=$API_SERVER -e WATCH_SERVER=$WATCH_SERVER -v $RIOOS_CONFIG_HOME:$RIOOS_CONFIG_HOME --restart always $RIOOS_REGISTRY/rioosscheduler:$RIOOS_VERSION
 
 ```
@@ -510,11 +518,19 @@ sudo docker run -d -p $MY_IP_ADDRESS:8086:8086 --name=influxdb -v $RIOOS_HOME/in
 
 
 * Logs Storage plugin - Elastic Search
+<<<<<<< HEAD
 
 Yet another logs storage for Fluent Bit.
 
 ```
 
+=======
+
+Yet another logs storage for Fluent Bit.
+
+```
+
+>>>>>>> origin/master
 docker run -d r$RIOOS_REGISTRY/riooselasticsearch:5.6.9
 
 ```
